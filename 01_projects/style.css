@@ -1,0 +1,87 @@
+html{
+    margin: 0;
+}
+
+
+span{
+    display: block;
+}
+.canvas{
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+}
+.button{
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+}
+#Grey{
+    background: gray;
+}
+#White{
+    background: white;
+}
+#blue{
+    background: blue;
+}
+#Yellow{
+    background: yellow;
+}
+#Skyblue{
+    background: skyblue;
+}
+nav li{
+    text-decoration: none;
+    list-style:none ;
+}
+.navbar li{
+    float:left
+}
+
+nav{
+ display: flex;
+ flex-wrap: wrap;
+margin-left: 20px;
+ justify-content: center;
+ padding: 0.5rem;
+ gap:0.5rem ;
+ border-bottom: solid 1px #aaa;
+ background-color: #eee;
+ margin-right: 20px;
+ border-radius: 10px;
+ scroll-behavior: smooth;
+}
+.home{
+    display:inline-block ;
+    min-width: 9rem;
+    gap: 0.2rem;
+    padding: 0.8rem;
+    border-radius: 0.1rem;
+    border : 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: #1b1b1b;
+   
+    scroll-behavior: smooth;
+
+}
+.Git{
+    display:inline-block ;
+    min-width: 9rem;
+    gap: 0.2rem;
+    padding: 0.8rem;
+    border-radius: 0.1rem;
+    border : 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: #1b1b1b;
+    margin-left: 10px;
+    scroll-behavior: smooth;
+
+
+}
+h2{
+ text-align: center;
+}
