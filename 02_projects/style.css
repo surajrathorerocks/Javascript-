@@ -38,7 +38,7 @@ nav li a{
 }
 .container {
   width: auto;
- height: 658px;
+ height: 720px;
  align-content: center;
 
   background-color: #797978;
@@ -64,7 +64,12 @@ nav li a{
   margin-top: 20px;
   color: rgb(241, 241, 241);
 }
-
+#feedback {
+  font-size: 35px;
+ margin-left: 15px;
+  margin-top: 30px;
+  color: rgb(242, 241, 241);
+}
 button {
   width: 150px;
   height: 35px;
