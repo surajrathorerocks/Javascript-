@@ -1,0 +1,38 @@
+body {
+    width: auto;
+    max-width: 800px;
+    min-width: 350px;
+    margin: 0 auto;
+    background-color: gray;
+}
+#sub{
+    background-color: darkkhaki;
+    font-size: 20px;
+    
+}
+.canvas h1{
+    background-color: darkcyan;
+    text-align: center;
+}
+.canvas p {
+    align-items: center;
+    text-align: center;
+   
+}
+.canvas{
+
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.Guessfield{
+    background-color: antiquewhite;
+    border-width: 4px;
+    border-top: 4px;
+}
+.guesses{
+    background-color: antiquewhite;
+    background:antiquewhite;
+    color: black;
+    padding: 7px;
+}
