@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify - Your Mood Your Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css" integrity="sha512-DzC7h7+bDlpXPDQsX/0fShhf1dLxXlHuhPBkBo/5wJWRoTU6YL7moeiNoej6q3wh5ti78C57Tu1JwTNlcgHSjg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/solid.min.js" integrity="sha512-H/FYzgm63CLJLwSgCNv7zmAHWnbw7GwOrnCjE15CD969yHWj7fGDiHHLZuZJLO9ZGIkBR/JL91/p/ddbtUUgQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="songlist">
+            <h1> Best of No Copyright Songs - Rock </h1>
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="1">
+                <span class="songName">Legion ft Marvel</span>
+                <span class="songlistplay">
+                    <span class="timestamp">3:50</span>
+                    <i class="far-songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+                <div class="songItem">
+                <img src="covers/2.jpg" alt="1">
+                <span class="songName">Trap Cartel</span>
+                <span class="songlistplay">
+                    <span class="timestamp">2:33</span>
+                    <i class="far-songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+                <div class="songItem">
+                <img src="covers/3.jpg" alt="1">
+                <span class="songName">They Mad (Lowkey Pasci)</span>
+                <span class="songlistplay">
+                    <span class="timestamp">4:33</span>
+                    <i class="far-songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+                <div class="songItem">
+                <img src="covers/4.jpg" alt="1">
+                <span class="songName">Rich The Kid</span>
+                <span class="songlistplay">
+                    <span class="timestamp">4:27</span>
+                    <i class="far-songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+                <div class="songItem">
+                <img src="covers/5.jpg" alt="1">
+                <span class="songName">lonely</span>
+                <span class="songlistplay">
+                    <span class="timestamp">3:28</span>
+                    <i class="far-songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+                <div class="songItem">
+                <img src="covers/6.jpg" alt="1">
+                <span class="songName">Safety Dance</span>
+                <span class="songlistplay">
+                    <span class="timestamp">3:28</span>
+                    <i class="far-songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+                <div class="songItem">
+                <img src="covers/7.jpg" alt="1">
+                <span class="songName">Back it up</span>
+                <span class="songlistplay">
+                    <span class="timestamp">4:33</span>
+                    <i class="far-songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+                <div class="songItem">
+                <img src="covers/8.jpg" alt="1">
+                <span class="songName">No One can</span>
+                <span class="songlistplay">
+                    <span class="timestamp">3:50</span>
+                    <i class="far-songItemPlay fa-solid fa-circle-play"></i>
+                </span>
+            </div>
+            
+
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myprogressbar" min="0" value="0" max="100"  >
+        <div class="Icons">
+            <i class="fa-solid fa-1.9x fa-backward-step"></i>
+            <i class="fa-solid  fa-1.9x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid  fa-1.9x fa-forward-step"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="" width="42px" id="gif" >
+            Legion ft Marvel
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

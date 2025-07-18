@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container {
+    min-height: 70vh;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    margin: 25px auto;
+    width: 70%;
+    border-radius: 8px;
+    padding: 34px;
+   background-image: url('bg.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right;
+  
+
+}
+
+
+.container h1 {
+    margin-top: 5px;
+    margin-left: 15px;
+
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#myprogressbar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.Icons {
+    color: white;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.Icons i {
+    padding: 5%;
+    gap: 0.5vh;
+    width: 20px;
+
+}
+
+.Icons i {
+    cursor: pointer;
+}
+
+.songItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    background: grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.songItem img {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.songlistplay {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.songItem i {
+   cursor: pointer;
+}
+.songInfo img {
+   opacity: 0;
+   transition: opacity 0.4s step-end;
+}
